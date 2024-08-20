@@ -1,0 +1,50 @@
+# Offshore Wind & Wildlife Data Catalog Prototype
+
+RWSC’s mission is to facilitate coordinated research and analysis for wildlife, marine ecosystems, and offshore wind. As part of this work, we reviewed all the data types and corresponding data entities described in the RWSC Science Plan, in order to determine how they steward data and support data collaboration. We used the criteria developed with RWSC staff and subcommittee members for this review.
+
+What we found was that many data entities people were familiar with did not fully meet our criteria for true data ‘repositories.’ Under that definition, data repositories have to: Accept data submissions and provide access for data reuse Provide long-term data storage and preservation Many of these data places provide other valuable features to the research community, such as aggregating data for searching, but they do not provide a home for the data that can support access and reanalysis over the 30 year lifetime of a wind farm.
+
+In addition, RWSC is building a Data Catalog to make related data easier to find and reuse.  With support from [NOAA's National Centers for Coastal Ocean Science (NCCOS)][1], we are prototyping the Data Catalog in the fall of 2024. In order for repositories to be connected to the RWSC Data Catalog they also have to: Include and share minimum metadata that could be reflected in the RWSC Data Catalog
+
+Our initial review produced the following list of data types and repositories that we will use to prototype the data catalog. Where repositories have member nodes that are commonly used by the community, we have listed those as well. We will be continuing our repository review this fall, including follow-up discussions with staff at other data programs -- such as IOOS, OBIS, and NCEI -- to determine how they handle data submissions and storage, how they can be connected to the RWSC’s data catalog, and to provide additional guidance to data submitters. We plan to release an updated version of this list in December 2024.
+
+### Repositories for RWSC Data Catalog Prototype
+
++-------------------------------+-----------------------------------------------------+
+| Data type                     |  Repositories                                       |
++===============================+=====================================================+
+| Animal tracking data          | [Movebank][2]                                       |
++-------------------------------+-----------------------------------------------------+
+| Telemetry data                | [Ocean Tracking Network][3] and compatible nodes    |
+|                               |                                                     |
+|                               |  - [ACT-MATOS][4]                                   |
+|                               |                                                     |
+|                               | [Motus][5]                                          |
+|                               |                                                     |
+|                               | [Animal Telemetry Network][6]                       |
++-------------------------------+-----------------------------------------------------+
+| Acoustic data                 | [Passive Acoustic Data Archive][7]                  |
+|                               |                                                     |
+|                               | [North American Bat Monitoring Program][8]          |
++-------------------------------+-----------------------------------------------------+
+| Bat observations              | [North American Bat Monitoring Program][8]          |
++-------------------------------+-----------------------------------------------------+
+| Plankton and chlorophyll data | [Environmental Data Initiative][9]                  |
++-------------------------------+-----------------------------------------------------+
+| Genetic sequence data         | [National Center for Biotechnology Information][10] |
++-------------------------------+-----------------------------------------------------+
+
+[1]: <https://coastalscience.noaa.gov/>
+[2]: <https://datarepository.movebank.org/home>
+[3]: <https://oceantrackingnetwork.org/data-centre/>
+[4]: <https://matos.asascience.com/>
+[5]: <https://motus.org/explore/>
+[6]: <https://atn.ioos.us/>
+[7]: <https://www.ncei.noaa.gov/products/passive-acoustic-data>
+[8]: <https://sciencebase.usgs.gov/nabat/#/about>
+[9]: <https://edirepository.org/>
+[10]: <https://www.ncbi.nlm.nih.gov/>
+
+
+
+
