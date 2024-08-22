@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - /assets/pdfs/RWSC_Criteria_for_Recommending_Repositories.pdf
   
 website:
   title: ""
@@ -12,15 +14,15 @@ website:
      search: false
      logo: "/assets/img/RWSC_Logo_notext.png"
      bread-crumbs: false
-  sidebar:
-    title: Data Catalog
-    logo: "/assets/img/logo7.png"
-    pinned: true
-    align: "center"
+  sidebar: false
+  #   title: Data Catalog
+  #   logo: "/assets/img/logo7.png"
+  #   pinned: true
+  #   align: "center"
   page-footer:
     left: "&copy; CC-By-NC-ND RWSC Steering Committee, 2024"
     right: <img src="/assets/img/RWSC_Logo.png" width="125">
-  # chapters: 
+ 
 
 format:
   html:
@@ -31,10 +33,10 @@ format:
     linestretch: 1.5
     embed-resources: true 
     smooth-scroll: true
-    toc: true
-    toc-location: left 
-    toc-title: " "
-    toc-depth: 4
+    toc: false
+    # toc-location: left 
+    # toc-title: " "
+    # toc-depth: 4
     page-layout: full
     code-link: true
     author-meta: "Regional Wildlife Science Collaborative for Offshore Wind"

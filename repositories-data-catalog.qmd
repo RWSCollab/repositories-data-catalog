@@ -1,6 +1,6 @@
 # Offshore Wind & Wildlife Data Catalog Prototype
 
-RWSC’s mission is to facilitate coordinated research and analysis for wildlife, marine ecosystems, and offshore wind. As part of this work, we reviewed all the data types and corresponding data entities described in the RWSC Science Plan, in order to determine how they steward data and support data collaboration. We used the criteria developed with RWSC staff and subcommittee members for this review.
+RWSC’s mission is to facilitate coordinated research and analysis for wildlife, marine ecosystems, and offshore wind. As part of this work, we reviewed all the data types and corresponding data entities described in the RWSC Science Plan, in order to determine how they steward data and support data collaboration. We used the [criteria][0] developed with RWSC staff and subcommittee members for this review.
 
 What we found was that many data entities people were familiar with did not fully meet our criteria for true data ‘repositories.’ Under that definition, data repositories have to: Accept data submissions and provide access for data reuse Provide long-term data storage and preservation Many of these data places provide other valuable features to the research community, such as aggregating data for searching, but they do not provide a home for the data that can support access and reanalysis over the 30 year lifetime of a wind farm.
 
@@ -34,6 +34,7 @@ Our initial review produced the following list of data types and repositories th
 | Genetic sequence data         | [National Center for Biotechnology Information][10] |
 +-------------------------------+-----------------------------------------------------+
 
+[0]: </assets/pdfs/RWSC_Criteria_for_Recommending_Repositories.pdf>{target="_blank"}
 [1]: <https://coastalscience.noaa.gov/>
 [2]: <https://datarepository.movebank.org/home>
 [3]: <https://oceantrackingnetwork.org/data-centre/>
