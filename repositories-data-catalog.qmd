@@ -20,7 +20,7 @@ We will also be continuing our repository review this fall, including follow-up 
 +===============================+==============================================================================================+
 | Animal tracking data          | [Movebank][4]                                                                                |
 +-------------------------------+----------------------------------------------------------------------------------------------+
-| Telemetry data                | [Ocean Tracking Network][5] and compatible nodes                                              |
+| Telemetry data                | [Ocean Tracking Network][5] and compatible nodes                                             |
 |                               |                                                                                              |
 |                               | -   [ACT-MATOS][6]                                                                           |
 |                               |                                                                                              |
