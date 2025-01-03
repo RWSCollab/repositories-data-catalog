@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://RWSCollab.github.io/repositories-data-catalog/august-2024-status.html</loc>
+    <lastmod>2025-01-03T18:52:48.915Z</lastmod>
+  </url>
+  <url>
     <loc>https://RWSCollab.github.io/repositories-data-catalog/repositories-data-catalog.html</loc>
-    <lastmod>2024-08-23T20:08:49.485Z</lastmod>
+    <lastmod>2025-01-03T18:52:48.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RWSCollab.github.io/repositories-data-catalog/essential_metadata_guide.html</loc>
+    <lastmod>2025-01-03T18:52:48.952Z</lastmod>
   </url>
 </urlset>
