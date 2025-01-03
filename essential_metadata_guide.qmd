@@ -1,19 +1,17 @@
-# Essential metadata guidelines for offshore wind & wildlife data
+---
+title: "Essential metadata guidelines for offshore wind & wildlife data"
+date: 2025-01-03
+---
 
-January 2025, V 1.0
+Metadata describing every dataset collected with respect to offshore wind and wildlife (OW&W) research and monitoring are required to ensure that all data can be found, indexed, and accessed via the Offshore Wind & Wildlife Data Catalog.
 
-Metadata describing every dataset collected with respect to offshore wind and wildlife (OW&W) research and monitoring are required to ensure that all data can be found, indexed, and accessed via the Offshore Wind & Wildlife Data Catalog.  
-  
-* Repositories on RWSC’s recommended repository list meet or exceed these essential metadata guidelines. If you publish your data in one of these repositories and satisfy those metadata requirements, your data will be discoverable in the Offshore Wind & Wildlife Data Catalog.    
-  
-* If you are publishing in a generalist repository (e.g. Zenodo), RWSC strongly suggests you include at least these essential metadata so that your data will be discoverable in the Offshore Wind & Wildlife Data Catalog.  
-  
-* In addition, if you’d like other research outputs (e.g. maps, code, or other data products) to appear in the Offshore Wind & Wildlife Data Catalog, you will need to include these essential metadata when you publish your research.
-  
+-   Repositories on RWSC’s recommended repository list meet or exceed these essential metadata guidelines. If you publish your data in one of these repositories and satisfy those metadata requirements, your data will be discoverable in the Offshore Wind & Wildlife Data Catalog.
+
+-   If you are publishing in a generalist repository (e.g. Zenodo), RWSC strongly suggests you include at least these essential metadata so that your data will be discoverable in the Offshore Wind & Wildlife Data Catalog.
+
+-   In addition, if you’d like other research outputs (e.g. maps, code, or other data products) to appear in the Offshore Wind & Wildlife Data Catalog, you will need to include these essential metadata when you publish your research.
+
 These essential metadata are meant to apply across all research domains and subject areas, and for all research outputs related to offshore wind & wildlife. Therefore, descriptive names have been used for each type of information
-  
-
-
 
 ```{r, echo=FALSE, warning=FALSE, include=FALSE}
 library(tidyverse); library(knitr); library(kableExtra)
@@ -29,7 +27,6 @@ table1[5,2] <- paste0("A unique persistent identifier such as a ", "<a href=\"",
 table1[13,2] <- paste0("Name and persistent ID (e.g. ", "<a href=\"","https://ror.org/","\">","ROR","</a>", ", if available) of the organization(s) funding this research")
                     
 ```
-
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 #| html-table-processing: none
@@ -48,50 +45,86 @@ TBL <- kbl(table1, booktabs = TRUE, align = ("llccc"), format = "html", escape =
 TBL
 ```
 
-
-
-
 <!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------+ -->
+
 <!-- |                             | **Description**                                                                                                                         | Equivalent fields in common metadata standards                   | -->
+
 <!-- |                             |                                                                                                                                         |                                                                  | -->
+
 <!-- |                             | *Common-language description of the essential metadata terms. Aligned with, but may differ from,*                                       +-------------------------+--------------------+-------------------+ -->
+
 <!-- | **OW&W Essential Metadata** | *the exact definitions of fields in the individual metadata standards in the right-hand columns.*                                       |  EML                    | ISO19115-2         | DCAT-US           | -->
+
 <!-- +=============================+=========================================================================================================================================+=========================+====================+===================+ -->
+
 <!-- | Title                       | Should be informative and include the geographic area, the study subject, and the date                                                  | Title                   | Title              | Title             | -->
+
 <!-- |                             | (e.g. *Benthic data from the Southern Gulf of Maine from 2020-2023*)                                                                    |                         |                    |                   | -->
+
 <!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
 <!-- | Author(s)                   | The person(s) responsible for the intellectual input(s) to this research output                                                         |   Creator               | Author             |    Creator        | -->
+
 <!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
 <!-- | Contributor(s)              | The person(s) or organization(s) responsible for parts of the data package, such as metadata                                            |   Metadata Provider;    | Resource Provider; |  Contributor;     | -->
+
 <!-- |                             | provider, data steward, custodian, owner, principal investigator                                                                        |    Associated Party;    |     Custodian;     | Rights Holder     | -->
+
 <!-- |                             |                                                                                                                                         |     Protocol Creator    |      Processor     |                   | -->
+
 <!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
 <!-- | Contact                     | The person responsible for curating the research output, and answering questions and providing                                          |  Contact                |  Point of Contact  | Contact Point     | -->
+
 <!-- |                             | further information about it                                                                                                            |                         |                    |                   | -->
+
 <!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
 <!-- | Persistent                  | A unique persistent identifier such as a Digital Object Identifier (DOI); a URL is not acceptable                                       | Identifier              | Identifier         |   Identifier      | -->
+
 <!-- | Identifier (PID)            | because it is not persistent                                                                                                            |                         |                    |                   | -->
+
 <!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
 
 <!-- | License                     | Terms that describe how the research output (including data) can be shared and reused.  Good                                            |    License and Usage    | License            |    License        | -->
+
 <!-- |                             | practice is to explicitly state the license selected for the data.  The recommended licenses are                                        |          Rights         |                    |                   | -->
+
 <!-- |                             | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (public domain) or [CC-BY](https://creativecommons.org/licenses/by/4.0/).     |                         |                    |                   | -->
-<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
-<!-- | Date(s)                     | Date(s) of data collection, or the data the research output was created                                                                 | Date Range              | Date               |    Temporal       | -->
-<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
-<!-- | Time(s)                     | Time(s) of data collection, or the time the research output was created                                                                 |    Temporal Coverage    | DateTime           |    Temporal       | -->
-<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
-<!-- | Geographic                  | Description and geographic coordinates or bounding coordinates of the data collection or research output                                |Geographic Description;  | Geographic         |    Spatial        | -->
-<!-- | location                    |                                                                                                                                         |Bounding Coordinates     | Bounding Box       |                   | -->
-<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
-<!-- | RWSC Taxon/Topic            | RWSC taxon/topic(s) of focus (choose from:*Birds & Bats, Data Governance, Habitat & Ecosystem, *                                        | N/A                     | N/A                |Theme              | -->
-<!-- |                             | *Marine Mammals, Protected Fish Species, Sea Turtles, Technology*)                                                                      |                         |                    |                   | -->
-<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
-<!-- | Publisher                   | The name of the repository or journal or other organization that published the research output                                          | Publisher               | Publisher          | Publisher         | -->
-<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
-<!-- | Publication Date            | Date the research output was published                                                                                                  | PubDate                 |  Publication Date  | Issued            | -->
-<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
-<!-- | Funder                      | Name and persistent ID (e.g. [ROR](https://ror.org/), if available) of the organization(s) funding                                      | Funding                 | Funder             |  Qualified        | -->
-<!-- |                             | this research                                                                                                                           |                         |                    |  Attribution      | -->
+
 <!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
 
+<!-- | Date(s)                     | Date(s) of data collection, or the data the research output was created                                                                 | Date Range              | Date               |    Temporal       | -->
+
+<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
+<!-- | Time(s)                     | Time(s) of data collection, or the time the research output was created                                                                 |    Temporal Coverage    | DateTime           |    Temporal       | -->
+
+<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
+<!-- | Geographic                  | Description and geographic coordinates or bounding coordinates of the data collection or research output                                |Geographic Description;  | Geographic         |    Spatial        | -->
+
+<!-- | location                    |                                                                                                                                         |Bounding Coordinates     | Bounding Box       |                   | -->
+
+<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
+<!-- | RWSC Taxon/Topic            | RWSC taxon/topic(s) of focus (choose from:*Birds & Bats, Data Governance, Habitat & Ecosystem, *                                        | N/A                     | N/A                |Theme              | -->
+
+<!-- |                             | *Marine Mammals, Protected Fish Species, Sea Turtles, Technology*)                                                                      |                         |                    |                   | -->
+
+<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
+<!-- | Publisher                   | The name of the repository or journal or other organization that published the research output                                          | Publisher               | Publisher          | Publisher         | -->
+
+<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
+<!-- | Publication Date            | Date the research output was published                                                                                                  | PubDate                 |  Publication Date  | Issued            | -->
+
+<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
+
+<!-- | Funder                      | Name and persistent ID (e.g. [ROR](https://ror.org/), if available) of the organization(s) funding                                      | Funding                 | Funder             |  Qualified        | -->
+
+<!-- |                             | this research                                                                                                                           |                         |                    |  Attribution      | -->
+
+<!-- +-----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------------+-------------------+ -->
