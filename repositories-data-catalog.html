@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -364,7 +364,8 @@ window.document.addEventListener("DOMContentLoaded", function () {
 let categoriesLoaded = false;
 
 window.quartoListingCategory = (category) => {
-  category = atob(category);
+  // category is URI encoded in EJS template for UTF-8 support
+  category = decodeURIComponent(atob(category));
   if (categoriesLoaded) {
     activateCategory(category);
     setCategoryHash(category);
@@ -3874,7 +3875,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1735862400000" data-listing-file-modified-sort="1735932437648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4468">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1735862400000" data-listing-file-modified-sort="1737146806120" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4468">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./essential_metadata_guide.html" class="no-external">Essential metadata guidelines for offshore wind &amp; wildlife data</a>
@@ -3894,7 +3895,27 @@ Jan 3, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1724371200000" data-listing-file-modified-sort="1735932437603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1860">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1731888000000" data-listing-file-modified-sort="1737146806063" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1511">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./RWSC_glossary.html" class="no-external">Data management and governance glossary</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./RWSC_glossary.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./RWSC_glossary.html" class="no-external"><em>This glossary is meant to serve as a useful reference. It is an evergreen document and will be updated and added to as often as necessary.</em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./RWSC_glossary.html" class="no-external">
+<div class="listing-date">
+Nov 18, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1724371200000" data-listing-file-modified-sort="1737146806065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1860">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./august-2024-status.html" class="no-external">Progress towards understanding the offshore wind and wildlife data landscape and building a Data Catalog</a>
