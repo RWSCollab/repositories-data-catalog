@@ -33,10 +33,10 @@ format:
     linestretch: 1.5
     embed-resources: true
     smooth-scroll: true
-    toc: false
-    # toc-location: left
-    # toc-title: " "
-    # toc-depth: 4
+    toc: true
+    toc-location: left
+    toc-title: " "
+    toc-depth: 4
     page-layout: full
     code-link: true
     author-meta: "Regional Wildlife Science Collaborative for Offshore Wind"
