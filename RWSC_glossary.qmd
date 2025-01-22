@@ -25,6 +25,8 @@ date: 2024-11-18
 <!-- [Data Sharing Agreement](#data-sharing-agreement)\ -->
 <!-- [Data Standard](#data-standard)\ -->
 <!-- [Data Stewardship](#data-stewardship)\ -->
+<!-- [Data Type](#data-type)\ -->
+<!-- [Database](#database)\ -->
 <!-- [Derived Data](#derived-data)\ -->
 <!-- [DOI](#doi)\ -->
 <!-- [ERDDAP](#erddap)\ -->
@@ -128,6 +130,16 @@ A technical specification that details the structure, organization, documentatio
 
 The actions involved in supporting, promoting, and guiding the use and reuse of data throughout the data lifecycle.
 
+#### Data Type 
+<!-- {#data-type} -->
+
+A classification or category of various kinds of data, usually defined by common properties of the data, such as collection method (e.g. satellite telemetry data), scientific topic/question (e.g. fish length), or activity (e.g boulder relocation). Note that there are other definitions of this term not described here, specific to programming/coding and database management.
+
+#### Database 
+<!-- {#database} -->
+
+An organized collection of data.  Structured data are stored in relational databases, which are designed to make search and retrieval of data quicker and easier.  Unstructured data can be stored in nonrelational databases, and are often found in web applications.  
+
 #### Derived Data 
 <!-- {#derived-data} -->
 
@@ -200,7 +212,7 @@ Data that are formatted, documented, and shared in ways that make them understan
 #### Schema 
 <!-- {#schema} -->
 
-An outline, diagram, or model of the structure of different types of data.\
+An outline, diagram, or model of the structure of different types of data.
 This can be within a relational database, where the schema describes the tables and fields contained within the database. Another type is the XML schema, which describes the elements in the XML file using a specific structure. This structure is frequently used for metadata.
 
 #### Simulation Data 
