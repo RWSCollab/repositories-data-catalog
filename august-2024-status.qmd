@@ -3,6 +3,8 @@ title: "Progress towards understanding the offshore wind and wildlife data lands
 date: 2024-08-23
 ---
 
+<p style="font-size:12px; font-style:italic;">Version 1</p>
+
 RWSC is beginning to build an Offshore Wind & Wildlife Data Catalog to make related data easier to find and reuse. The first step was to build on [NYSERDA’s *Wildlife Data Standardization and Sharing: Environmental Data Transparency for New York State Offshore Wind Energy*](https://www.nyserda.ny.gov/-/media/Project/Nyserda/files/Programs/offshore-wind/21-11-Wildlife-Data-Standardization-and-Sharing-Environmental-Data-Transparency-for-NYS-OSW-Energy.pdf), and review the \>30 data repositories, data access points, and other “data places” described in the RWSC Science Plan, to determine how they accept data, steward data, and support data collaboration. We used [criteria](/assets/pdfs/RWSC_Criteria_for_Recommending_Repositories.pdf){target="_blank"} developed with RWSC staff and Subcommittee members for this review.
 
 What we found was that many data places people were familiar with did not fully meet our criteria for true data ‘repositories.’ Under that definition, data repositories have to:\
