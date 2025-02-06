@@ -1,7 +1,7 @@
 ---
 title: "Updates to recommended repositories for publication and long-term storage of data related to offshore wind & wildlife"
 format: html
-date: 2025-02-14
+date: 2025-02-7
 ---
 
 <p style="font-size:12px; font-style:italic;">Version 2</p>
