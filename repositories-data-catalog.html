@@ -364,8 +364,7 @@ window.document.addEventListener("DOMContentLoaded", function () {
 let categoriesLoaded = false;
 
 window.quartoListingCategory = (category) => {
-  // category is URI encoded in EJS template for UTF-8 support
-  category = decodeURIComponent(atob(category));
+  category = atob(category);
   if (categoriesLoaded) {
     activateCategory(category);
     setCategoryHash(category);
@@ -3878,7 +3877,29 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1735862400000" data-listing-file-modified-sort="1737573960803" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4468">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1739491200000" data-listing-file-modified-sort="1738884797753" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2759">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./repositories_v2.html" class="no-external">Updates to recommended repositories for publication and long-term storage of data related to offshore wind &amp; wildlife</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./repositories_v2.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./repositories_v2.html" class="no-external">
+Version 2
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./repositories_v2.html" class="no-external">
+<div class="listing-date">
+Feb 14, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1735862400000" data-listing-file-modified-sort="1738884797752" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4468">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./essential_metadata_guide.html" class="no-external">Essential metadata guidelines for offshore wind &amp; wildlife data</a>
@@ -3898,7 +3919,7 @@ Jan 3, 2025
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1731888000000" data-listing-file-modified-sort="1737573960746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1620">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1731888000000" data-listing-file-modified-sort="1738884797687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1620">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./RWSC_glossary.html" class="no-external">Data management and governance glossary</a>
@@ -3918,7 +3939,7 @@ Nov 18, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1724371200000" data-listing-file-modified-sort="1737573960749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1497">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1724371200000" data-listing-file-modified-sort="1738884797690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1500">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./august-2024-status.html" class="no-external">Progress towards understanding the offshore wind and wildlife data landscape and building a Data Catalog</a>
@@ -3927,7 +3948,9 @@ Nov 18, 2024
 <a href="./august-2024-status.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<a href="./august-2024-status.html" class="no-external">RWSC is beginning to build an Offshore Wind &amp; Wildlife Data Catalog to make related data easier to find and reuse. The first step was to build on NYSERDA’s <em>Wildlife Data…</em></a>
+<a href="./august-2024-status.html" class="no-external">
+Version 1
+</a>
 </div>
 </div>
 <div class="metadata">
@@ -4369,7 +4392,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© CC-By-NC-ND RWSC Steering Committee, 2025</p>
+<p>This work is licensed under CC BY 4.0</p>
 </div>   
     <div class="nav-footer-center">
        
