@@ -20,7 +20,7 @@ website:
   #   pinned: true
   #   align: "center"
   page-footer:
-    left: "&copy; CC-By-NC-ND RWSC Steering Committee, 2025"
+    left: "This work is licensed under CC BY 4.0"
     right: <img src="/assets/img/RWSC_Logo.png" width="125">
 
 
