@@ -1,0 +1,26 @@
+Data category,Data type,Repository
+Benthic Biological Data,"Submerged vegetation, infauna, or epifauna data",PANGAEA <br>OBIS <br>GBIF <br>Environmental Data Initiative
+Biological Oceanography,"Plankton and chlorophyll data (nets and tows, active acoustic data)",Environmental Data Initiative <br>BCO-DMO
+Data Products,"Seafloor and sediment data products (bathymetry, backscatter, sediment sample data, other seafloor data products)",NROC-MARCO-RWSC Seafloor Data Repository
+eDNA,"eDNA (raw sequences, derived observations, reference libraries)",National Center for Biotechnology Information <br>OBIS <br>GBIF <br>Catalogue of Life
+"Geological, Geophysical, Geotechnical Oceanography",Boulder relocations,NROC-MARCO-RWSC Seafloor Data Repository
+"Geological, Geophysical, Geotechnical Oceanography",Raw subbottom profiles,USGS National Archive of Marine Seismic Surveys <br>Marine Geoscience Data System
+"Geological, Geophysical, Geotechnical Oceanography","Raw multibeam bathymetry, single-beam bathymetry, sidescan sonar",NCEI-IHO Data Centre for Digital Bathymetry <br>Marine Geoscience Data System
+Other Outputs,Radar/Lidar data (birds),Wind Data Hub 
+Other Outputs,Any other research outputs not listed above,Zenodo <br>Figshare <br>(see also footnote)
+Passive Acoustic Data,Underwater acoustic data (from marine mammal monitoring and ambient noise monitoring),Passive Acoustic Data Archive
+Passive Acoustic Data,Above water acoustic observations (from bird and bat monitoring),North American Bat Monitoring Program (for bats)<br>Avian Knowledge Network (for birds)
+"Physical Oceanography, Chemical Oceanography",Oceanographic data,Environmental Data Initiative <br>PANGAEA <br>BCO-DMO
+"Physical Oceanography, Chemical Oceanography",Underway environmental / oceanographic data,Rolling Deck 2 Repository <br>PANGAEA <br>BCO-DMO
+Telemetry Data,Acoustic telemetry data (fish tagging),Ocean Tracking Network and compatible nodes: ACT-MATOS & FACT
+Telemetry Data,Radio telemetry data (small bird and bat tagging),Motus
+Telemetry Data,"Satellite telemetry data (large fish, seals, large seabirds)",Ocean Tracking Network <br>Movebank <br>Animal Telemetry Network
+Telemetry Data,Colonial waterbird / shorebird movement data,Movebank
+Telemetry Data,Other animal tracking data (not covered by the above),Movebank
+Videos and Photographs,Photographs of North Atlantic right whales,OBIS-SEAMAP <br>North Atlantic Right Whale Consortium Photo-Identification Database  
+Videos and Photographs,"Photographs of whales, dolphins, turtles, large fishes, birds, etc.",Zenodo <br>OBIS-SEAMAP <br>BCO-DMO
+Videos and Photographs,"Seafloor plan-view photos, Sediment profile images, Underwater video, Baited underwater video",NROC-MARCO-RWSC Seafloor Data Repository
+Wildlife Observational Data,"Bat observations (colony counts, other)",North American Bat Monitoring Program 
+Wildlife Observational Data,"Visual observations of marine mammals, seabirds, colonial waterbirds/shorebirds, sea turtles, fish (e.g. surveys, line transects, observations based on photos/videos but not the photos/videos themselves)",OBIS-SEAMAP<br>Avian Knowledge Network (for birds)
+Wildlife Observational Data,Visual observations of North Atlantic right whales and other taxa observed during NARW surveys,North Atlantic Right Whale Consortium Sightings Database
+,,

@@ -1,0 +1,169 @@
+---
+title: "Updates to recommended repositories for publication and long-term storage of data related to offshore wind & wildlife"
+format: html
+date: 2025-02-14
+---
+
+<p style="font-size:12px; font-style:italic;">Version 2</p>
+
+As part of its mission to support coordination, increase collaboration, and increase data sharing and transparency, the Regional Wildlife Science Collaborative for Offshore Wind (RWSC) is maintaining a list of data repositories for publishing offshore wind and wildlife data that would be indexable by a [future Offshore Wind Data Catalog](https://rwscollab.github.io/repositories-data-catalog/repositories-data-catalog.html). By sharing data through one of the repositories listed below, data holders can improve the chances that their data will contribute to the greater body of knowledge about offshore wind and wildlife by making that data discoverable and reusable. This document is licensed as CC-BY and RWSC encourages anyone working with wildlife, offshore wind, or related ocean data to reuse it.
+
+The RWSC defines a data repository as:
+
+> *A persistent, findable, searchable entity that provides infrastructure for long-term storage and access to data. It should provide for data publication by data holders, as well as access for using/reusing data.* [RWSC glossary](https://rwscollab.github.io/repositories-data-catalog/RWSC_glossary.html)
+
+The list below is a reflection of ongoing engagement and conversations with data stewards and staff associated with the repositories and other data places identified by RWSC Subcommittees in the [Science Plan](https://rwsc.org/science-plan) for all expected types of offshore wind and wildlife data. The Subcommittees recommended a variety of data resources that are important to their community and that are part of existing data workflows, regardless of whether or not they strictly meet the definition of a “data repository”. Since Science Plan publication in January 2024, the Data Governance Subcommittee has been exploring, testing, and validating these data management workflows with the staff that built and maintain the data platforms. RWSC Subcommittees are continuing to support existing data workflows and, in collaboration with data stewards, identify specific enhancements and capacity needs to support critical data infrastructure into the future. This includes understanding and assisting with planned improvements to existing databases (e.g. Northwest Atlantic Seabird Catalog) and new data assembly centers (e.g. IOOS Offshore Wind Data Assembly Center) for data types not listed below. Future RWSC outputs from this body of work will include: 
+ - Revisions and updates to the table below as new and improved data solutions come online
+ - Recommended enhancements and capacity needs for existing and new repositories that would ensure long-term preservation of data (co-developed with relevant data stewards, data managers, and other responsible entities)
+
+RWSC recognizes that government agencies may require data to be submitted to specific places not listed here, and that there are data places and platforms that do not meet the RWSC definition of data repository but provide value to the research community for search and analysis. Whenever possible, we encourage data holders to also publish data to one of the repositories listed below to ensure that data is available to the wider community, preserved in a long term archive, and indexable by the future Catalog. If publishing in a domain-specific repository listed below, data holders will exceed the [RWSC essential metadata guidelines](https://rwscollab.github.io/repositories-data-catalog/essential_metadata_guide.html), however if publishing in a generalist repository such as Zenodo or Figshare, it is strongly recommended to follow [these guidelines](https://rwscollab.github.io/repositories-data-catalog/essential_metadata_guide.html).  
+
+**How to use this table:** <br>
+Begin by finding the category of data you’d like to publish (left column).  If you are working with the RWSC Data Management and Sharing Plan template<sup>1</sup>, you will recognize these categories.  Second, find the type of data you will be collecting (middle column), and the recommended repository(ies) will be listed in the right column. If there are multiple repositories listed, the order does not convey any preference or priority.  Rather, each researcher should choose a recommended repository for that data type that is the best fit for the data or other research output.  Additional support for choosing repositories and publishing data is available by contacting [RWSC](https://rwsc.org/contact/).  
+
+```{r, echo=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse); library(knitr); library(kableExtra)
+
+repo_table <- read.csv("Table_Repositories.csv", header = TRUE, stringsAsFactors = FALSE)
+```
+
+```{r, echo=FALSE, warning=FALSE, include=FALSE}
+repo_table[1,3] <- paste0("<a href=\"","https://www.pangaea.de/","\">", "PANGAEA", "</a>","<br>", 
+                          "<a href=\"", "https://obis.org/","\">", "OBIS", "</a>", "<br>",
+                          "<a href=\"", "https://www.gbif.org/","\">", "GBIF", "</a>","<br>",
+                          "<a href=\"", "https://portal.edirepository.org/","\">", 
+                          "Environmental Data Initiative", "</a>")
+
+repo_table[2,3] <- paste0("<a href=\"", "https://portal.edirepository.org/","\">",
+                           "Environmental Data Initiative", "</a>", "<br>",
+                           "<a href=\"", "https://www.bco-dmo.org/","\">", "BCO-DMO",
+                           "</a>", footnote_marker_number(2))
+
+repo_table[3,3] <- paste0("<a href=\"", "https://seafloor.northeastoceandata.org/","\">", 
+                          "NROC-MARCO-RWSC Seafloor Data Repository", "</a>")
+
+repo_table[4,3] <- paste0("<a href=\"", "https://www.ncbi.nlm.nih.gov/","\">", "NCBI", "</a>","<br>",
+                          "<a href=\"", "https://obis.org/","\">", "OBIS", "</a>", "<br>",
+                          "<a href=\"", "https://www.gbif.org/","\">", "GBIF", "</a>","<br>",
+                          "<a href=\"", "https://www.catalogueoflife.org/","\">", 
+                          "Catalogue of Life", "</a>", "<br>", "(see also footnote", 
+                          footnote_marker_number(3), ")")
+
+repo_table[5,3] <- paste0("<a href=\"", "https://seafloor.northeastoceandata.org/","\">", 
+                          "NROC-MARCO-RWSC Seafloor Data Repository", "</a>")
+
+repo_table[6,3] <- paste0("<a href=\"", "https://walrus.wr.usgs.gov/namss/","\">", 
+                           "USGS National Archive of Marine Seismic Surveys", "</a>", "<br>",
+                           "<a href=\"", "https://www.marine-geo.org/index.php","\">", 
+                           "Marine Geoscience Data System", "</a>")
+
+repo_table[7,3] <- paste0("<a href=\"", "https://www.ncei.noaa.gov/iho-data-centre-digital-bathymetry","\">",
+                           "NCEI-IHO Data Centre for Digital Bathymetry", "</a>", "<br>",
+                           "<a href=\"", "https://www.marine-geo.org/index.php","\">", 
+                           "Marine Geoscience Data System", "</a>")
+
+repo_table[8,3] <- paste0("<a href=\"", "https://a2e.energy.gov/data","\">", "Wind Data Hub", "</a>")
+
+repo_table[9,3] <- paste0("<a href=\"", "https://zenodo.org/","\">", "Zenodo", "</a>", "<br>",
+                          "<a href=\"", "https://figshare.com/","\">", "Figshare", "</a>", "<br>",
+                          "(see also footnote", footnote_marker_number(4), ")")
+
+repo_table[10,3] <- paste0("<a href=\"", "https://www.ncei.noaa.gov/products/passive-acoustic-data","\">", 
+                           "Passive Acoustic Data Archive", "</a>")
+
+repo_table[11,3] <- paste0("<a href=\"","https://www.nabatmonitoring.org/","\">", 
+                           "North American Bat Monitoring Program", "</a>", " (for bats)", "<br>",
+                           "<a href=\"","https://avianknowledge.net/","\">", 
+                           "Avian Knowledge Network", "</a>", " (for birds)")
+
+repo_table[12,3] <- paste0("<a href=\"", "https://portal.edirepository.org/","\">", 
+                           "Environmental Data Initiative", "</a>", "<br>",
+                           "<a href=\"","https://www.pangaea.de/","\">", "PANGAEA", "</a>","<br>",
+                           "<a href=\"", "https://www.bco-dmo.org/","\">", "BCO-DMO",
+                           "</a>", footnote_marker_number(2))
+
+repo_table[13,3] <- paste0("<a href=\"","https://www.rvdata.us/","\">", 
+                           "Rolling Deck 2 Repository", "</a>","<br>",
+                           "<a href=\"","https://www.pangaea.de/","\">", "PANGAEA", "</a>","<br>",
+                           "<a href=\"", "https://www.bco-dmo.org/","\">", "BCO-DMO",
+                           "</a>", footnote_marker_number(2))
+
+repo_table[14,3] <- paste0("<a href=\"", "https://oceantrackingnetwork.org/","\">", 
+                           "Ocean Tracking Network", "</a>", " and compatible nodes: ", 
+                           "<a href=\"", "https://matos.asascience.com/","\">", "ACT-MATOS", "</a>", " & ",
+                           "<a href=\"", "https://secoora.org/fact/","\">", "FACT", "</a>")
+
+repo_table[15,3] <- paste0("<a href=\"", "https://motus.org/","\">", "Motus", "</a>")
+
+repo_table[16,3] <- paste0("<a href=\"", "https://oceantrackingnetwork.org/","\">", 
+                           "Ocean Tracking Network", "</a>", "<br>",
+                           "<a href=\"", "https://www.movebank.org/cms/movebank-content/data-repository#","\">", 
+                           "Movebank", "</a>", "<br>",
+                           "<a href=\"", "https://atn.ioos.us/","\">", "Animal Telemetry Network", "</a>")
+
+repo_table[17,3] <- paste0("<a href=\"", "https://www.movebank.org/cms/movebank-content/data-repository#","\">",
+                           "Movebank", "</a>")
+
+repo_table[18,3] <- paste0("<a href=\"", "https://www.movebank.org/cms/movebank-content/data-repository#","\">",
+                           "Movebank", "</a>")
+
+repo_table[19,3] <- paste0("<a href=\"", "https://seamap.env.duke.edu/","\">", "OBIS-SEAMAP", "</a>", "<br>", 
+                           "<a href=\"", "https://www.narwc.org/sightings-database.html","\">", 
+                           "North Atlantic Right Whale Consortium Photo-Identification Database", "</a>")
+
+repo_table[20,3] <- paste0("<a href=\"", "https://seamap.env.duke.edu/","\">", "OBIS-SEAMAP", "</a>", "<br>",
+                           "<a href=\"", "https://zenodo.org/","\">", "Zenodo", "</a>", "<br>",
+                           "<a href=\"", "https://www.bco-dmo.org/","\">", "BCO-DMO",
+                           "</a>", footnote_marker_number(2))
+
+repo_table[21,3] <- paste0("<a href=\"", "https://seafloor.northeastoceandata.org/","\">", 
+                           "NROC-MARCO-RWSC Seafloor Data Repository", "</a>")
+
+repo_table[22,3] <- paste0("<a href=\"","https://www.nabatmonitoring.org/","\">", 
+                          "North American Bat Monitoring Program", "</a>")
+
+repo_table[23,3] <- paste0("<a href=\"", "https://seamap.env.duke.edu/","\">", "OBIS-SEAMAP", "</a>", "<br>",
+                           "<a href=\"","https://avianknowledge.net/","\">", 
+                           "Avian Knowledge Network", "</a>", " (for birds)")
+
+repo_table[24,3] <- paste0("<a href=\"", "https://www.narwc.org/sightings-database.html","\">", 
+                          "North Atlantic Right Whale Consortium Sightings Database", "</a>")
+
+###
+
+ft_nt_dmpt <- paste0("<i>The template is available at ", "<a href=\"", "https://dmptool.org/","\">", "dmptool.org", "</a>", "; free registration is required to access</i>")
+
+ft_nt_bdmo <- paste0("<i>BCO-DMO primarily accepts data from NSF-funded research</i>")
+
+ft_nt_noaa <- paste0("<i>Additional information is in the ", "<a href=\"","https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html","\">","NOAA Omics Guidelines</i>","</a>")
+
+ft_nt_ess_meta <- paste0("<i>It is strongly recommended to follow the ", "<a href=\"","https://rwscollab.github.io/repositories-data-catalog/essential_metadata_guide.html","\">", "essential metadata guidelines","</a>", " when publishing data in generalist repositories.</i>")
+
+
+                    
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.cap=" "}
+#| html-table-processing: none
+
+rtbl <- kbl(repo_table, booktabs = TRUE, align = ("lll"), format = "html", escape = FALSE,
+            col.names = c("<span style='font-size:24px'>Data category</span>",
+                          "<span style='font-size:24px'>Data type</span>",
+                          "<span style='font-size:24px'>Repository</span>")) %>% 
+        kable_paper(full_width = FALSE, position = "center", fixed_thead = TRUE,
+                    html_font = "sans-serif",
+                    lightable_options = c("hover")) %>%
+        column_spec(1, width = "16em", extra_css = "vertical-align:top;") %>% 
+        column_spec(2, width = "40em", extra_css = "vertical-align:top;") %>% 
+        column_spec(3, width = "22em", extra_css = "vertical-align:top;") %>% 
+        footnote(general = "",
+                 number = c(ft_nt_dmpt, ft_nt_bdmo, ft_nt_noaa, ft_nt_ess_meta), 
+                 general_title = "",
+                 escape = FALSE) 
+       
+      
+rtbl
+
+```
+
+
