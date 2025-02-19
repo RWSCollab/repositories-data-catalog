@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://RWSCollab.github.io/repositories-data-catalog/august-2024-status.html</loc>
-    <lastmod>2025-02-06T23:37:36.012Z</lastmod>
-  </url>
-  <url>
     <loc>https://RWSCollab.github.io/repositories-data-catalog/RWSC_glossary.html</loc>
-    <lastmod>2025-02-06T23:37:36.009Z</lastmod>
-  </url>
-  <url>
-    <loc>https://RWSCollab.github.io/repositories-data-catalog/repositories_v2.html</loc>
-    <lastmod>2025-02-06T23:37:36.075Z</lastmod>
+    <lastmod>2025-02-19T18:16:30.927Z</lastmod>
   </url>
   <url>
     <loc>https://RWSCollab.github.io/repositories-data-catalog/repositories-data-catalog.html</loc>
-    <lastmod>2025-02-06T23:37:36.075Z</lastmod>
+    <lastmod>2025-02-19T18:16:30.992Z</lastmod>
   </url>
   <url>
     <loc>https://RWSCollab.github.io/repositories-data-catalog/essential_metadata_guide.html</loc>
-    <lastmod>2025-02-06T23:37:36.075Z</lastmod>
+    <lastmod>2025-02-19T18:16:30.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RWSCollab.github.io/repositories-data-catalog/repositories_v2.html</loc>
+    <lastmod>2025-02-19T18:16:30.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://RWSCollab.github.io/repositories-data-catalog/august-2024-status.html</loc>
+    <lastmod>2025-02-19T18:16:30.930Z</lastmod>
   </url>
 </urlset>
