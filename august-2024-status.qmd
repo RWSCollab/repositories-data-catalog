@@ -1,22 +1,22 @@
 ---
-title: "Progress towards understanding the offshore wind and wildlife data landscape and building a Data Catalog"
+title: "Progress towards understanding the offshore research data landscape and building a Data Catalog"
 date: 2024-08-23
 ---
 
 <p style="font-size:12px; font-style:italic;">Version 1</p>
 
-RWSC is beginning to build an Offshore Wind & Wildlife Data Catalog to make related data easier to find and reuse. The first step was to build on [NYSERDA’s *Wildlife Data Standardization and Sharing: Environmental Data Transparency for New York State Offshore Wind Energy*](https://www.nyserda.ny.gov/-/media/Project/Nyserda/files/Programs/offshore-wind/21-11-Wildlife-Data-Standardization-and-Sharing-Environmental-Data-Transparency-for-NYS-OSW-Energy.pdf), and review the \>30 data repositories, data access points, and other “data places” described in the RWSC Science Plan, to determine how they accept data, steward data, and support data collaboration. We used [criteria](/assets/pdfs/RWSC_Criteria_for_Recommending_Repositories.pdf){target="_blank"} developed with RWSC staff and Subcommittee members for this review.
+RWSC is beginning to build an Offshore Research Data Catalog to make related data easier to find and reuse. The first step was to build on [NYSERDA’s *Wildlife Data Standardization and Sharing: Environmental Data Transparency for New York State Offshore Wind Energy*](https://www.nyserda.ny.gov/-/media/Project/Nyserda/files/Programs/offshore-wind/21-11-Wildlife-Data-Standardization-and-Sharing-Environmental-Data-Transparency-for-NYS-OSW-Energy.pdf), and review the \>30 data repositories, data access points, and other “data places” described in the RWSC Science Plan, to determine how they accept data, steward data, and support data collaboration. We used [criteria](/assets/pdfs/RWSC_Criteria_for_Recommending_Repositories.pdf){target="_blank"} developed with RWSC staff and Subcommittee members for this review.
 
 What we found was that many data places people were familiar with did not fully meet our criteria for true data ‘repositories.’ Under that definition, data repositories have to:\
         1. Accept data submissions and provide access for data reuse\
         2. Provide long-term data storage and preservation\
-Many of these data places provide other valuable features to the research community, such as aggregating data for searching, but they do not provide a home for the data that can support access and reanalysis over the 30+ year lifetime of a wind farm.
+Many of these data places provide other valuable features to the research community, such as aggregating data for searching, but they do not provide a home for the data that can support access and reanalysis over a 30+ year time period.
 
-The next step we will take is to scope the requirements and potential platforms for a Data Catalog, in collaboration with the [Northeast Regional Ocean Council (NROC)](https://www.northeastoceancouncil.org), [Mid-Atlantic Regional Council on the Ocean (MARCO)](https://midatlanticocean.org), and [NOAA's National Centers for Coastal Ocean Science (NCCOS)](https://coastalscience.noaa.gov/). For this scoping analysis, we have focused on an initial group of repositories (listed below) that both meet the criteria above and include and share minimum metadata that could connect to the Offshore Wind & Wildlife Data Catalog. We think these repositories are most likely to be compatible, and will be used to prototype the Data Catalog. Where repositories have member nodes that are commonly used by the offshore wind and wildlife community, we have listed those as well.
+The next step we will take is to scope the requirements and potential platforms for a Data Catalog, in collaboration with the [Northeast Regional Ocean Council (NROC)](https://www.northeastoceancouncil.org), [Mid-Atlantic Regional Council on the Ocean (MARCO)](https://midatlanticocean.org), and [NOAA's National Centers for Coastal Ocean Science (NCCOS)](https://coastalscience.noaa.gov/). For this scoping analysis, we have focused on an initial group of repositories (listed below) that both meet the criteria above and include and share minimum metadata that could connect to the Offshore Research Data Catalog. We think these repositories are most likely to be compatible, and will be used to prototype the Data Catalog. Where repositories have member nodes that are commonly used by the offshore research community, we have listed those as well.
 
 We will also be continuing our repository review this fall, including follow-up discussions with staff at other data programs -- such as the Integrated Ocean Observing System (IOOS), Ocean Biodiversity Information System (OBIS), OBIS-SEAMAP, and National Centers for Environmental Information (NCEI) -- to determine how they handle data submissions and storage, how they can be connected to the Data Catalog, and to provide additional guidance to data submitters. We plan to release an updated version of this list in December 2024.
 
-### Initial Repositories under consideration for the Offshore Wind & Wildlife Data Catalog {.unnumbered .unlisted}
+### Initial Repositories under consideration for the Offshore Research Data Catalog {.unnumbered .unlisted}
 
 +-------------------------------+----------------------------------------------------------------------------------------------+
 | Data type                     | Repositories                                                                                 |

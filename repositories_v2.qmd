@@ -1,18 +1,18 @@
 ---
-title: "Updates to recommended repositories for publication and long-term storage of data related to offshore wind & wildlife"
+title: "Updates to recommended repositories for publication and long-term storage of data related to offshore research"
 format: html
 date: 2025-02-7
 ---
 
 <p style="font-size:12px; font-style:italic;">Version 2</p>
 
-As part of its mission to support coordination, increase collaboration, and increase data sharing and transparency, the Regional Wildlife Science Collaborative for Offshore Wind (RWSC) is maintaining a list of data repositories for publishing offshore wind and wildlife data that would be indexable by a [future Offshore Wind Data Catalog](https://rwscollab.github.io/repositories-data-catalog/repositories-data-catalog.html). By sharing data through one of the repositories listed below, data holders can improve the chances that their data will contribute to the greater body of knowledge about offshore wind and wildlife by making that data discoverable and reusable. This document is licensed as CC-BY and RWSC encourages anyone working with wildlife, offshore wind, or related ocean data to reuse it.
+As part of its mission to support coordination, increase collaboration, and increase data sharing and transparency, the Regional Wildlife Science Collaborative (RWSC) is maintaining a list of data repositories for publishing offshore research data that would be indexable by a [future Offshore Research Data Catalog](https://rwscollab.github.io/repositories-data-catalog/repositories-data-catalog.html). By sharing data through one of the repositories listed below, data holders can improve the chances that their data will contribute to the greater body of knowledge about offshore research by making that data discoverable and reusable. This document is licensed as CC-BY and RWSC encourages anyone working with wildlife, offshore development, or related ocean data to reuse it.
 
 The RWSC defines a data repository as:
 
 > *A persistent, findable, searchable entity that provides infrastructure for long-term storage and access to data. It should provide for data publication by data holders, as well as access for using/reusing data.* [RWSC glossary](https://rwscollab.github.io/repositories-data-catalog/RWSC_glossary.html)
 
-The list below is a reflection of ongoing engagement and conversations with data stewards and staff associated with the repositories and other data places identified by RWSC Subcommittees in the [Science Plan](https://rwsc.org/science-plan) for all expected types of offshore wind and wildlife data. The Subcommittees recommended a variety of data resources that are important to their community and that are part of existing data workflows, regardless of whether or not they strictly meet the definition of a “data repository”. Since Science Plan publication in January 2024, the Data Governance Subcommittee has been exploring, testing, and validating these data management workflows with the staff that built and maintain the data platforms. RWSC Subcommittees are continuing to support existing data workflows and, in collaboration with data stewards, identify specific enhancements and capacity needs to support critical data infrastructure into the future. This includes understanding and assisting with planned improvements to existing databases (e.g. Northwest Atlantic Seabird Catalog) and new data assembly centers (e.g. IOOS Offshore Wind Data Assembly Center) for data types not listed below. Future RWSC outputs from this body of work will include: 
+The list below is a reflection of ongoing engagement and conversations with data stewards and staff associated with the repositories and other data places identified by RWSC Subcommittees in the [Science Plan](https://rwsc.org/science-plan) for all expected types of offshore research data. The Subcommittees recommended a variety of data resources that are important to their community and that are part of existing data workflows, regardless of whether or not they strictly meet the definition of a “data repository”. Since Science Plan publication in January 2024, the Data Governance Subcommittee has been exploring, testing, and validating these data management workflows with the staff that built and maintain the data platforms. RWSC Subcommittees are continuing to support existing data workflows and, in collaboration with data stewards, identify specific enhancements and capacity needs to support critical data infrastructure into the future. This includes understanding and assisting with planned improvements to existing databases (e.g. Northwest Atlantic Seabird Catalog) and new data assembly centers (e.g. IOOS Offshore Wind Data Assembly Center) for data types not listed below. Future RWSC outputs from this body of work will include: 
 
  - Revisions and updates to the table below as new and improved data solutions come online
  - Recommended enhancements and capacity needs for existing and new repositories that would ensure long-term preservation of data (co-developed with relevant data stewards, data managers, and other responsible entities)
@@ -138,7 +138,7 @@ ft_nt_bdmo <- paste0("<i>BCO-DMO primarily accepts data from NSF-funded research
 
 ft_nt_noaa <- paste0("<i>Additional information is in the ", "<a href=\"","https://noaa-omics-dmg.readthedocs.io/en/latest/omics-data-guidelines.html","\">","NOAA Omics Guidelines</i>","</a>")
 
-ft_nt_ess_meta <- paste0("<i>It is strongly recommended to follow the ", "<a href=\"","https://rwscollab.github.io/repositories-data-catalog/essential_metadata_guide.html","\">", "essential metadata guidelines","</a>", " when publishing data in generalist repositories.</i>")
+ft_nt_ess_meta <- paste0("<i>It is strongly recommended to follow the ", "<a href=\"","https://rwscollab.github.io/repositories-data-catalog/essential-metadata-guide.html","\">", "essential metadata guidelines","</a>", " when publishing data in generalist repositories.</i>")
 
 
                     
