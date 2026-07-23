@@ -3,13 +3,13 @@ title: "Essential metadata guidelines for offshore research data"
 date: 2025-01-03
 ---
 
-Metadata describing every dataset collected with respect to offshore research and monitoring are required to ensure that all data can be found, indexed, and accessed via the Offshore Research Data Catalog.
+Metadata describing every dataset collected with respect to offshore research and monitoring are required to ensure that all data can be found, indexed, and accessed via the Atlantic Offshore Research Data Catalog.
 
--   Repositories on RWSC’s recommended repository list meet or exceed these essential metadata guidelines. If you publish your data in one of these repositories and satisfy those metadata requirements, your data will be discoverable in the Offshore Research Data Catalog.
+- Repositories on RWSC’s recommended repository list meet or exceed these essential metadata guidelines. If you publish your data in one of these repositories and satisfy those metadata requirements, your data will be discoverable in the Atlantic Offshore Research Data Catalog.
 
--   If you are publishing in a generalist repository (e.g. Zenodo), RWSC strongly suggests you include at least these essential metadata so that your data will be discoverable in the Offshore Research Data Catalog.
+- If you are publishing in a generalist repository (e.g. Zenodo), RWSC strongly suggests you include at least these essential metadata so that your data will be discoverable in the Atlantic Offshore Research Data Catalog.
 
--   In addition, if you’d like other research outputs (e.g. maps, code, or other data products) to appear in the Offshore Research Data Catalog, you will need to include these essential metadata when you publish your research.
+- In addition, if you’d like other research outputs (e.g. maps, code, or other data products) to appear in the Atlantic Offshore Research Data Catalog, you will need to include these essential metadata when you publish your research.
 
 These essential metadata are meant to apply across all research domains and subject areas, and for all outputs related to offshore research. Therefore, descriptive names have been used for each type of information
 

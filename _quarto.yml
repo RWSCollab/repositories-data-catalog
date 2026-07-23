@@ -6,6 +6,7 @@ project:
 
 website:
   title: ""
+  site-url: "/repositories-data-catalog.html"
   page-navigation: true
   favicon: /assets/img/logo7.png
   search: false
